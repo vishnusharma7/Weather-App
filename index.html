@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather Report</title>
+    <link rel="shortcut icon" href="img/icon.ico" type="image"
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1 class="animate-charcter">Get Weather Detail</h1>
+      </div>
+    </div>
+  </div>
+    <div class="app">
+        <div class="searchbox">
+        <input type="text" id="input-box" class="input-box"   placeholder="Enter City...">
+        </div>
+        <div class="weatherdetail">
+            <div class="location-detail">
+                <div class="city" id="city"> Andal, IN</div>
+                <div class="date" id="date">10 July (Tuesday), 2022</div>
+            </div>
+        <div class="weather-status">
+            <div class="temp" id="temp">34&deg;C </div>
+            <div class="min-max" id="min-max">32&deg;C(min)/34&deg;C(max) </div>
+            <div class="weather" id="weather">Clear</div>
+            <div class="img" ></div>
+        </div>
+    </div>
+</div>
+<!-- just doodling ... as you do -->
+<div class="wrap">
+	<div class="inner-top">
+
+		<!-- give this its own class -->
+		<div class="diamond-top" style="bottom: 81%; transform: translateX(-50%); font-size: 1.75rem;">♦</div>
+
+	</div>
+	<div class="outer-top">
+		<div class="diamond-top">♦</div>
+		<div class="tick"></div>
+		<div class="tick-bottom">
+		</div>
+		<div class="diamond-bottom">♦</div>
+		<div class="diamond-bottom2">♦</div>
+	</div>
+
+	<div class="lower-inner">
+	</div>
+</div>
+
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js'></script>
+<script src="script.js"></script>
+</body>
+</html>
