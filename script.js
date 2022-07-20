@@ -63,7 +63,7 @@ function showWeatherReport(weather){
    
         
     } 
-    else if(weatherType.textContent == 'Mist') {
+    else if(weatherType.textContent == 'img/Mist') {
     
         document.body.style.backgroundImage = "url('mist.jpg')";
 }
